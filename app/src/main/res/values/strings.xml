@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BankPal</string>
+
+    <string name="banking_system_app">BankPal</string>
+    <string name="all_users">All Users</string>
+    <string name="all_transactions">All Transactions</string>
+    <string name="select_user">Select a user to transfer money</string>
+    <string name="no_transactions_yet">No Transactions Yet</string>
+    <string name="account_no">Account No :</string>
+    <string name="email">Email </string>
+    <string name="ifsc_code">IFSC Code :</string>
+    <string name="mobile_no">Mobile No :</string>
+    <string name="current_balance">Current Balance :</string>
+    <string name="from">From</string>
+    <string name="could_not_send">Could not send</string>
+    <string name="transaction_cancelled">Transaction Cancelled</string>
+    <string name="not_set">Not Set</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="name">Name</string>
+    <string name="balance">Balance</string>
+    <string name="rs">Rs.</string>
+    <string name="amount">Amount</string>
+</resources>

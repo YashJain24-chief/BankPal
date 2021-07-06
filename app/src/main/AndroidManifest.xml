@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.bankpal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BankPal">
+        <activity
+            android:name=".Activities.TransferTo"
+            android:label="Send To" />
+        <activity
+            android:name=".Activities.UsersList"
+            android:label="Customers"
+            android:parentActivityName=".Activities.Home" />
+        <activity
+            android:name=".Activities.TransactionHistory"
+            android:label="Transaction History"
+            android:parentActivityName=".Activities.Home" />
+        <activity
+            android:name=".Activities.UserData"
+            android:label="Information"
+            android:parentActivityName=".Activities.UsersList"/>
+        <activity
+            android:name=".Activities.Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--        Application starts from splash screen-->
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>
